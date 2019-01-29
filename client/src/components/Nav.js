@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
-    return(
+    return (
         <nav>
             <h2>Google Books</h2>
             <Link to="/">Search</Link>

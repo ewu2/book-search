@@ -13,7 +13,7 @@ class Saved extends React.Component {
     componentWillMount() {
         API.getBooks().then(
             (response) => {
-                this.setState({savedBooks: response.data});
+                this.setState({ savedBooks: response.data });
             }
         ).catch(
             (err) => {
@@ -24,9 +24,9 @@ class Saved extends React.Component {
 
     render() {
         console.log(this.state.savedBooks);
-        return(
+        return (
             <main>
-                <ResultsContainer savedBooks={this.state.savedBooks} path={this.props.match.path}/>
+                <ResultsContainer savedBooks={this.state.savedBooks} path={this.props.match.path} />
             </main>
         );
     }

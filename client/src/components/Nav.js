@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (
         <nav>
-            <h2>Google Books</h2>
-            <Link to="/">Search</Link>
-            <Link to="/saved">Saved</Link>
+            <h2>book-searcher</h2>
+            <Link to="/">search</Link>
+            <Link to="/saved">saved</Link>
         </nav>
     );
 }

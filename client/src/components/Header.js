@@ -12,8 +12,8 @@ const headerStyle = {
 function Header() {
     return (
         <header style={headerStyle}>
-            <h1>(React) Google Books Search</h1>
-            <p>Search for and Save Books of Interest</p>
+            <h1>book-searcher</h1>
+            <p>...or you can just Google it.</p>
         </header>
     );
 }
